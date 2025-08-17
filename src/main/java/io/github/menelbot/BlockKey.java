@@ -1,4 +1,4 @@
-package io.menelbot.github;
+package io.github.menelbot;
 
 import org.bukkit.block.Block;
 import org.jetbrains.annotations.Contract;

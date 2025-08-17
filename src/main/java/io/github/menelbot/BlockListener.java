@@ -1,4 +1,4 @@
-package io.menelbot.github;
+package io.github.menelbot;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
