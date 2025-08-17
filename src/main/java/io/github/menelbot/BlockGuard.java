@@ -106,6 +106,15 @@ public class BlockGuard {
             }
         }
 
+        /**
+         * @return The exact timestamp at which the lease will be considered expired
+         */
+        @ApiStatus.AvailableSince("1.0.2")
+        @SuppressWarnings("unused")
+        public long expiry() {
+            return this.until;
+        }
+
         @ApiStatus.AvailableSince("1.0.0")
         @Override public void close() {
             if (closed) return;
